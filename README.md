@@ -29,7 +29,7 @@ Active Directory remains the identity backbone in roughly **90 percent** of ente
     - `_msdcs.ad_lab.local`
     - Host and SRV records
 
-![AD_Confirmation.png](AD_Confirmation.png)
+![AD_Confirmation.png](screenshots/AD_Confirmation.png)
 
 ---
 
@@ -38,7 +38,7 @@ Active Directory remains the identity backbone in roughly **90 percent** of ente
 - Ensured DNS pointed directly to the DC
 - Confirmed time sync and Kerberos functionality
 
-![Client Connected Successfully](Client_Connected.png)
+![Client Connected Successfully](screenshots/Client_Connected.png)
 
 Client Connected Successfully
 
@@ -55,7 +55,7 @@ Configured:
 - Maximum password age: **90 days**
 - Password history: **5**
 
-![Password Policy](Password_Policy.png)
+![Password Policy](screenshots/Password_Policy.png)
 
 Password Policy
 
@@ -71,7 +71,7 @@ Configured:
 - Duration: **30 minutes**
 - Reset counter: **30 minutes**
 
-![Account Lockout Policy](Account_Lockout_Policy.png)
+![Account Lockout Policy](screenshots/Account_Lockout_Policy.png)
 
 Account Lockout Policy
 
@@ -81,11 +81,11 @@ Account Lockout Policy
 - Entered invalid credentials 5 times → account locked
 - Confirmed GPO hits with `gpresult /r`
 
-![Password Complexity Test](Password_Complexity.png)
+![Password Complexity Test](screenshots/Password_Complexity.png)
 
 Password Complexity Test
 
-![Lockout Policy](LockOut_Policy.png)
+![Lockout Policy](screenshots/LockOut_Policy.png)
 
 Lockout Policy
 
