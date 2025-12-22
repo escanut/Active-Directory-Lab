@@ -1,8 +1,8 @@
-# 📌 Project Summary
+# Project Summary
 
 Active Directory remains the identity backbone in roughly **90 percent** of enterprise networks, making baseline configuration and policy enforcement one of the highest-value skills across IT and security roles. This lab sets up a functional AD DS environment, joins a Windows client, builds a proper OU hierarchy, applies essential security Group Policy settings, and validates enforcement with real tests. The environment mirrors standard small-enterprise deployments used in operational IT.
 
-## 🧱 Environment Architecture
+## Environment Architecture
 
 - **Domain Controller:** Windows Server 2025
 - **Client:** Windows 10 22H2 (VMware Workstation)
@@ -10,7 +10,7 @@ Active Directory remains the identity backbone in roughly **90 percent** of ente
 - **Network:** Internal LAN
 - **Services Configured:** AD DS, DNS, GPO, Security Baselines
 
-## 🎯 Objectives
+## Objectives
 
 - Deploy Active Directory Domain Services
 - Configure DNS automatically via DC promotion
@@ -19,9 +19,9 @@ Active Directory remains the identity backbone in roughly **90 percent** of ente
 - Apply security-relevant Group Policy Objects
 - Validate password and lockout policies through live tests
 
-## 🏗️ Implementation
+## Implementation
 
-### 🔹 1. Domain Controller Setup
+###  1. Domain Controller Setup
 
 - Installed AD DS role through Server Manager
 - Promoted the server to a new forest: **ad_lab.local**
@@ -33,7 +33,7 @@ Active Directory remains the identity backbone in roughly **90 percent** of ente
 
 ---
 
-### 🔹 2. Domain Join (Windows 10 22H2)
+### 2. Domain Join (Windows 10 22H2)
 
 - Ensured DNS pointed directly to the DC
 - Confirmed time sync and Kerberos functionality
@@ -42,7 +42,7 @@ Active Directory remains the identity backbone in roughly **90 percent** of ente
 
 Client Connected Successfully
 
-### 🔹 3. Security Group Policy Configuration
+###  3. Security Group Policy Configuration
 
 ### **Password Policy**
 
@@ -75,7 +75,7 @@ Configured:
 
 Account Lockout Policy
 
-### 🔹 4. Enforcement Testing
+### 4. Enforcement Testing
 
 - Attempted weak passwords → blocked
 - Entered invalid credentials 5 times → account locked
@@ -89,7 +89,7 @@ Password Complexity Test
 
 Lockout Policy
 
-## 🧩 Skills Demonstrated
+## Skills Demonstrated
 
 - Identity and Access Management
 - GPO and baseline security configuration
